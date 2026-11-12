@@ -59,6 +59,22 @@ window.COURSE = {
     ]
   },
 
+  /* ---------- Placement Test (Pretest / Posttest) ----------
+     show: true = แสดงการ์ดบนหน้าแรก · false = ซ่อนจากหน้าแรก (ยังอยู่ในหน้าสัปดาห์ 1, 15 และ Quizzes)
+     การเปิด-ปิดห้องสอบจริงควบคุมที่ exam_open ใน Google Sheet — ห้ามใส่ access code ในไฟล์นี้ */
+  placement: {
+    show: true,
+    url: "https://script.google.com/macros/s/AKfycbyZTZSSKTPpbO_6YnkH6S31A2I0uQhHZJzexcqJu-4wsR6_5hQzIf00ve4cBXEmsa3n/exec",
+    weeks: [1, 15],
+    when: "Pretest สัปดาห์ที่ 1–2 · Posttest สัปดาห์ที่ 15",
+    steps: [
+      "ใช้คอมพิวเตอร์และหูฟัง (ส่วน Listening มีเสียง)",
+      "พิมพ์รหัสนักศึกษาแบบมีขีด เช่น 68XXXXXXXXX-X",
+      "ใส่รหัสเข้าสอบที่อาจารย์แจ้งในห้องสอบ",
+      "ทำให้ครบ 3 ส่วน: Listening 20 · Grammar & Vocabulary 20 · Reading 20"
+    ]
+  },
+
   /* ---------- แผนการเรียน 16 สัปดาห์ ----------
      type: "lesson" | "exam"
      L = ส่วน Listening, R = ส่วน Grammar / Reading / Writing

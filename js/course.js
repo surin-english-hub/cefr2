@@ -120,6 +120,22 @@
       "</div></article>";
   }
 
+  /* ---------- placement test card ---------- */
+  function placementCard() {
+    var P = C.placement;
+    if (!P || !P.url) return "";
+    var steps = "";
+    for (var i = 0; i < P.steps.length; i++) steps += "<li>" + esc(P.steps[i]) + "</li>";
+    return '<section class="card pt-card"><div class="pt-head"><div><span class="pill">แบบทดสอบวัดระดับ</span>' +
+      "<h3>Placement Test</h3><p class=\"muted small\">" + esc(P.when) + " · 60 ข้อ</p></div>" +
+      '<a class="btn primary" href="' + esc(P.url) + '" target="_blank" rel="noopener">เข้าห้องสอบ ↗</a></div>' +
+      '<ol class="pt-steps">' + steps + "</ol>" +
+      '<p class="muted small">ห้องสอบเปิดเฉพาะเวลาที่อาจารย์กำหนด ถ้าขึ้นว่าปิดอยู่ ให้รอสัญญาณจากอาจารย์</p></section>';
+  }
+  function placementWeek(n) {
+    return C.placement && C.placement.weeks.indexOf(n) > -1;
+  }
+
   /* ---------- pages ---------- */
   function renderHome() {
     var cw = currentWeek();
@@ -180,6 +196,7 @@
         '<a class="card plan-card" href="plan.html"><span class="pill">16 สัปดาห์</span><h3>สารบัญแผนการเรียน</h3>' +
         '<p class="muted">หัวข้อรายสัปดาห์ โครง handout บทในหนังสือ และกำหนดส่งงาน</p><span class="go">เปิดแผนการเรียน →</span></a>' +
       "</section>" +
+      (C.placement && C.placement.show ? placementCard() : "") +
       '<section class="tiles">' + tileHtml + "</section>" +
 
       '<section class="block"><h2>เกี่ยวกับรายวิชา</h2><p>' + esc(C.description) + '</p><p class="muted small">' + esc(C.hours) + "</p></section>" +
@@ -254,6 +271,7 @@
         '<div class="card"><span class="pill">L · Listening</span><p>' + esc(w.L) + "</p></div>" +
         '<div class="card"><span class="pill">R · Grammar / Reading / Writing</span><p>' + esc(w.R) + "</p></div>" +
       "</section>" +
+      (placementWeek(w.n) ? placementCard() : "") +
       '<section class="block"><h2>สื่อประจำสัปดาห์</h2><div class="mats">' +
         mat("handout", "📄", "Handout") + mat("slides", "🖥️", "สไลด์") + mat("worksheet", "📝", "ใบงาน") + mat("practice", "🎧", "ฝึกบนเว็บ") +
       "</div></section>" +
@@ -283,7 +301,7 @@
       : "";
     $("#app").innerHTML =
       '<section class="hero small-hero"><p class="eyebrow">' + esc(C.code) + "</p><h1>" + esc(s.title) + "</h1>" +
-      '<p class="lead">' + esc(s.sub) + "</p></section>" + note + '<div class="groups">' + groups + "</div>";
+      '<p class="lead">' + esc(s.sub) + "</p></section>" + (key === "quizzes" ? placementCard() : "") + note + '<div class="groups">' + groups + "</div>";
   }
 
   renderChrome();
