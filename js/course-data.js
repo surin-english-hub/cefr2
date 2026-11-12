@@ -68,7 +68,7 @@ window.COURSE = {
     {
       n: 1, type: "lesson",
       title: "Introduction to TOEIC & CEFR",
-      L: "ปฐมนิเทศ: รูปแบบข้อสอบ TOEIC และเกณฑ์ CEFR",
+      L: "แนะนำรายวิชา: รูปแบบข้อสอบ TOEIC และเกณฑ์ CEFR",
       R: "Pretest (Placement Test)",
       book: "—", clo: [1], assess: "Pretest",
       links: { slides: "docs/week-01/Week01_Intro_TOEIC_CEFR.pptx" },
