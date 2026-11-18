@@ -31,8 +31,9 @@ Designed by Suparat Walakanon, The International Studies Center, RMUTI, Surin Ca
 
 ## ระบบฝึกข้อสอบ (โหมดฝึก / โหมดสอบ)
 
-จะนำระบบฝึกสอบเดิม (โหมดฝึก/โหมดสอบ) มาไว้ในโฟลเดอร์ `practice/` เมื่อชุดฝึก TOEIC ชุดแรกพร้อม
-(GitHub Actions สร้างเสียง TTS อัตโนมัติ — ตอนนั้นให้เปลี่ยน Source เป็น GitHub Actions)
+อยู่ในโฟลเดอร์ `practice/` (ดู `practice/README.md`) · ชุดแรก: Week 2 Part 1 + Part 5
+GitHub Actions (`.github/workflows/build-and-deploy.yml`) สร้างเสียง TTS อัตโนมัติและเผยแพร่เว็บ
+ต้องตั้ง Settings → Pages → Source เป็น **GitHub Actions**
 
 ## ⚠️ ข้อห้าม (repo สาธารณะ)
 

@@ -1,0 +1,165 @@
+{
+  "id": "week-02-part5",
+  "title": "Week 2 · Part 5 Word Form",
+  "description": "เลือกคำที่ถูกต้องเติมในช่องว่าง ใช้เทคนิคดูซ้าย–ดูขวา (12 ข้อ · CLO 2, 3)",
+  "level": "A2–B1",
+  "timeLimitMinutes": 8,
+  "sections": [
+    {
+      "id": "part5",
+      "title": "Part 5 Word Form",
+      "instructions": "เลือกคำที่ถูกต้องที่สุดเติมในช่องว่าง",
+      "groups": [
+        {
+          "id": "part5-mc",
+          "questions": [
+            {
+              "id": "P5-1",
+              "prompt": "The new machine has increased ______ at the Surin factory by 20 percent.",
+              "options": [
+                "produce",
+                "production",
+                "productive",
+                "productively"
+              ],
+              "answer": 1,
+              "explanation": "[ง่าย] ตำแหน่งหลังกริยา increased ต้องเป็น noun ทำหน้าที่กรรม จึงตอบ production / (A) produce เป็น verb / (C) productive เป็น adjective ไม่มี noun ให้ขยาย / (D) productively เป็น adverb"
+            },
+            {
+              "id": "P5-2",
+              "prompt": "Mr. Hiroshi answered all of the customers' questions ______.",
+              "options": [
+                "polite",
+                "politeness",
+                "politer",
+                "politely"
+              ],
+              "answer": 3,
+              "explanation": "[ง่าย] ช่องว่างท้ายประโยคขยายกริยา answered ต้องเป็น adverb จึงตอบ politely / (A) polite และ (C) politer เป็น adjective / (B) politeness เป็น noun"
+            },
+            {
+              "id": "P5-3",
+              "prompt": "We are looking for a ______ location for the new café.",
+              "options": [
+                "convenient",
+                "convenience",
+                "conveniently",
+                "conveniences"
+              ],
+              "answer": 0,
+              "explanation": "[ง่าย] อยู่หลัง a และหน้า noun (location) ต้องเป็น adjective จึงตอบ convenient / (B)(D) เป็น noun / (C) adverb ขยาย noun ไม่ได้"
+            },
+            {
+              "id": "P5-4",
+              "prompt": "The ______ of the new software took two days.",
+              "options": [
+                "install",
+                "installed",
+                "installation",
+                "installs"
+              ],
+              "answer": 2,
+              "explanation": "[ง่าย] หลัง The และก่อน of ต้องเป็น noun จึงตอบ installation / (A)(D) เป็น verb / (B) เป็น verb ช่อง 2/3"
+            },
+            {
+              "id": "P5-5",
+              "prompt": "Pedro spoke ______ during his first job interview.",
+              "options": [
+                "confident",
+                "confidence",
+                "confide",
+                "confidently"
+              ],
+              "answer": 3,
+              "explanation": "[ง่าย] หลังกริยา spoke ต้องใช้ adverb ขยายกริยา จึงตอบ confidently / (A) adjective / (B) noun / (C) verb (แปลว่า บอกความลับ)"
+            },
+            {
+              "id": "P5-6",
+              "prompt": "The marketing director was ______ satisfied with the results of the campaign.",
+              "options": [
+                "highly",
+                "high",
+                "height",
+                "heighten"
+              ],
+              "answer": 0,
+              "explanation": "[ปานกลาง] อยู่หน้า adjective (satisfied) ต้องเป็น adverb จึงตอบ highly (highly satisfied = พอใจมาก) / (B) high ใช้ขยาย satisfied ในความหมายนี้ไม่ได้ / (C) noun / (D) verb"
+            },
+            {
+              "id": "P5-7",
+              "prompt": "Two ______ from the head office will visit our branch next week.",
+              "options": [
+                "represent",
+                "representation",
+                "representatives",
+                "representative"
+              ],
+              "answer": 2,
+              "explanation": "[ปานกลาง] หลัง Two ต้องเป็นนามพหูพจน์ที่หมายถึงคน จึงตอบ representatives (ตัวแทน) / (D) representative เป็นเอกพจน์ ใช้หลัง Two ไม่ได้ / (A) verb / (B) noun แต่หมายถึงการเป็นตัวแทน ไม่ใช่คน"
+            },
+            {
+              "id": "P5-8",
+              "prompt": "The company became more ______ after it reduced its delivery costs.",
+              "options": [
+                "profit",
+                "profitable",
+                "profitably",
+                "profits"
+              ],
+              "answer": 1,
+              "explanation": "[ปานกลาง] หลัง become (linking verb) + more ต้องเป็น adjective จึงตอบ profitable / (A)(D) noun/verb / (C) adverb ใช้หลัง linking verb ไม่ได้"
+            },
+            {
+              "id": "P5-9",
+              "prompt": "The annual report was ______ prepared by the finance team.",
+              "options": [
+                "efficiently",
+                "efficient",
+                "efficiency",
+                "efficiencies"
+              ],
+              "answer": 0,
+              "explanation": "[ปานกลาง] อยู่ระหว่าง was กับ V3 (prepared) ต้องเป็น adverb จึงตอบ efficiently / (B) adjective / (C)(D) noun"
+            },
+            {
+              "id": "P5-10",
+              "prompt": "The training session was so ______ that nobody wanted to leave early.",
+              "options": [
+                "excited",
+                "excite",
+                "exciting",
+                "excitement"
+              ],
+              "answer": 2,
+              "explanation": "[ปานกลาง] ประธานคือ training session (สิ่ง) ที่ทำให้คนรู้สึก จึงใช้ -ing ตอบ exciting / (A) excited ใช้กับคนที่รู้สึก / (B) verb / (D) noun"
+            },
+            {
+              "id": "P5-11",
+              "prompt": "Somchai has been working very ______ to finish the project before the deadline.",
+              "options": [
+                "hardly",
+                "hard",
+                "hardness",
+                "harden"
+              ],
+              "answer": 1,
+              "explanation": "[ยาก] ขยายกริยา working ต้องเป็น adverb และ hard เป็น adverb ได้เลย (ทำงานหนัก) จึงตอบ hard / (A) hardly เป็น adverb แต่แปลว่า แทบจะไม่ ความหมายผิด / (C) noun / (D) verb"
+            },
+            {
+              "id": "P5-12",
+              "prompt": "The new policy will take effect ______ after the director signs it.",
+              "options": [
+                "immediate",
+                "immediacy",
+                "immediateness",
+                "immediately"
+              ],
+              "answer": 3,
+              "explanation": "[ยาก] ขยายวลี after the director signs it ต้องเป็น adverb จึงตอบ immediately (ทันที) / (A) adjective / (B)(C) noun"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
