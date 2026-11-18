@@ -103,7 +103,8 @@ window.COURSE = {
       book: "บทที่ 1", clo: [2, 3, 4], assess: "",
       links: {
         handout: "docs/week-02/Week02_Handout_Part1_Photographs_Part5_WordForm.docx",
-        slides: "docs/week-02/Week02_Part1_Photographs_Part5_WordForm.pptx"
+        slides: "docs/week-02/Week02_Part1_Photographs_Part5_WordForm.pptx",
+        worksheet: "docs/week-02/Week02_Worksheet_Part1_Photographs_Part5_WordForm.docx"
       },
       handout: [
         "A: รูปแบบ Part 1 และภาพ 3 แบบ (คนเดียว / หลายคน / ไม่มีคน)",
