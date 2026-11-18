@@ -282,7 +282,7 @@ window.COURSE = {
     listening: {
       title: "Listening", sub: "ฝึกฟังแยกตาม Part 1–4 พร้อมเสียง บทพูด และเฉลย",
       groups: [
-        { name: "Part 1 Photographs", week: 2, practice: [{ title: "Week 2 · Part 1 Photographs (6 ข้อ)", href: "practice/#/practice/week-02-part1" }] },
+        { name: "Part 1 Photographs", week: 2, practice: [{ title: "Week 2 · Part 1 Photographs (12 ข้อ)", href: "practice/#/practice/week-02-part1" }] },
         { name: "Part 2 Question–Response", week: 3, practice: [] },
         { name: "Part 3 Conversations", week: 5, practice: [] },
         { name: "Part 4 Talks", week: 9, practice: [] }
@@ -291,7 +291,7 @@ window.COURSE = {
     reading: {
       title: "Reading & Grammar", sub: "ฝึกแยกตาม Part 5–7",
       groups: [
-        { name: "Part 5 Incomplete Sentences", week: 2, practice: [{ title: "Week 2 · Part 5 Word Form (12 ข้อ)", href: "practice/#/practice/week-02-part5" }] },
+        { name: "Part 5 Incomplete Sentences", week: 2, practice: [{ title: "Week 2 · Part 5 Word Form (30 ข้อ)", href: "practice/#/practice/week-02-part5" }] },
         { name: "Part 6 Text Completion", week: 6, practice: [] },
         { name: "Part 7 Single Passages", week: 7, practice: [] },
         { name: "Part 7 Multiple Passages", week: 11, practice: [] }

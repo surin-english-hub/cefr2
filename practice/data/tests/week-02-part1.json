@@ -1,9 +1,9 @@
 {
   "id": "week-02-part1",
   "title": "Week 2 · Part 1 Photographs",
-  "description": "ดูภาพ ฟัง 4 ประโยค เลือกประโยคที่บรรยายภาพได้ถูกต้องที่สุด (6 ข้อ · CLO 2, 4)",
+  "description": "ดูภาพ ฟัง 4 ประโยค เลือกประโยคที่บรรยายภาพได้ถูกต้องที่สุด (12 ข้อ · CLO 2, 4)",
   "level": "A2–B1",
-  "timeLimitMinutes": 5,
+  "timeLimitMinutes": 8,
   "voices": {
     "US": "en-US-GuyNeural",
     "UK": "en-GB-SoniaNeural",
@@ -248,6 +248,240 @@
               ],
               "answer": 0,
               "explanation": "(A) ถูก: มีคนกำลังนำเสนออยู่จริง จึงใช้ is being + V3 ได้ / (B) ผู้ฟังนั่งอยู่ ไม่ได้ยืน / (C) ไม่ได้ปิดเครื่องฉาย / (D) ไม่มีใครออกจากห้อง"
+            }
+          ]
+        },
+        {
+          "id": "p1-07",
+          "label": "Photograph 7",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-07.jpg",
+          "imageAlt": "ผู้ชายกำลังถูพื้นทางเดินในอาคารสำนักงาน",
+          "script": [
+            {
+              "speaker": "US",
+              "text": "A. He's opening a window."
+            },
+            {
+              "speaker": "US",
+              "text": "B. He's mopping the floor."
+            },
+            {
+              "speaker": "US",
+              "text": "C. He's stopping at the door."
+            },
+            {
+              "speaker": "US",
+              "text": "D. He's moving a desk."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-7",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 1,
+              "explanation": "(B) ถูก: mop the floor = ถูพื้น ตรงกับภาพ / (A) ไม่ได้เปิดหน้าต่าง / (C) stopping ฟังคล้าย mopping (กับดักเสียงคล้าย) / (D) ไม่ได้ย้ายโต๊ะ"
+            }
+          ]
+        },
+        {
+          "id": "p1-08",
+          "label": "Photograph 8",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-08.jpg",
+          "imageAlt": "ผู้หญิงนั่งที่โต๊ะ คุยโทรศัพท์พร้อมจดโน้ตลงสมุด",
+          "script": [
+            {
+              "speaker": "UK",
+              "text": "A. She's typing on a keyboard."
+            },
+            {
+              "speaker": "UK",
+              "text": "B. She's filing some documents."
+            },
+            {
+              "speaker": "UK",
+              "text": "C. She's turning off a lamp."
+            },
+            {
+              "speaker": "UK",
+              "text": "D. She's writing something down."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-8",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 3,
+              "explanation": "(D) ถูก: write something down = จดบันทึก ตรงกับภาพ / (A) มือไม่ได้อยู่บนแป้นพิมพ์ / (B) ไม่ได้เก็บเอกสารเข้าแฟ้ม / (C) ไม่ได้ปิดโคมไฟ"
+            }
+          ]
+        },
+        {
+          "id": "p1-09",
+          "label": "Photograph 9",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-09.jpg",
+          "imageAlt": "คน 2 คนกำลังเดินขึ้นบันไดหน้าอาคาร",
+          "script": [
+            {
+              "speaker": "AU",
+              "text": "A. They're climbing some stairs."
+            },
+            {
+              "speaker": "AU",
+              "text": "B. They're sitting on the steps."
+            },
+            {
+              "speaker": "AU",
+              "text": "C. They're cleaning a railing."
+            },
+            {
+              "speaker": "AU",
+              "text": "D. They're waiting for a bus."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-9",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 0,
+              "explanation": "(A) ถูก: climb stairs = เดินขึ้นบันได / (B) steps ตรงกับภาพแต่ไม่ได้นั่ง (คำนามถูก กริยาผิด) / (C) ไม่ได้ทำความสะอาดราวบันได / (D) ไม่มีป้ายรถเมล์ (เดาเกินภาพ)"
+            }
+          ]
+        },
+        {
+          "id": "p1-10",
+          "label": "Photograph 10",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-10.jpg",
+          "imageAlt": "โกดังสินค้า กล่องวางซ้อนบนชั้นวาง ไม่มีคน",
+          "script": [
+            {
+              "speaker": "CA",
+              "text": "A. Some boxes are being loaded onto a truck."
+            },
+            {
+              "speaker": "CA",
+              "text": "B. Workers are unpacking some boxes."
+            },
+            {
+              "speaker": "CA",
+              "text": "C. The shelves are being painted."
+            },
+            {
+              "speaker": "CA",
+              "text": "D. Some boxes have been stacked on shelves."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-10",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 3,
+              "explanation": "(D) ถูก: have been stacked บรรยายสภาพที่เห็น / (A) และ (C) ใช้ being + V3 แต่ไม่มีคนกำลังทำ / (B) ไม่มีคนงานในภาพ"
+            }
+          ]
+        },
+        {
+          "id": "p1-11",
+          "label": "Photograph 11",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-11.jpg",
+          "imageAlt": "พ่อครัวกำลังหั่นผักบนเขียงในครัวร้านอาหาร",
+          "script": [
+            {
+              "speaker": "US",
+              "text": "A. He's washing some dishes."
+            },
+            {
+              "speaker": "US",
+              "text": "B. He's serving a meal to customers."
+            },
+            {
+              "speaker": "US",
+              "text": "C. He's chopping some vegetables."
+            },
+            {
+              "speaker": "US",
+              "text": "D. He's shopping for vegetables."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-11",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 2,
+              "explanation": "(C) ถูก: chop vegetables = หั่นผัก / (A) ไม่ได้ล้างจาน / (B) ไม่มีลูกค้าในภาพ / (D) shopping ฟังคล้าย chopping และใช้คำว่า vegetables ซ้ำ (กับดักเสียงคล้าย + คำซ้ำ)"
+            }
+          ]
+        },
+        {
+          "id": "p1-12",
+          "label": "Photograph 12",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-12.jpg",
+          "imageAlt": "เรือผูกจอดอยู่ข้างท่าเรือไม้ ไม่มีคน",
+          "script": [
+            {
+              "speaker": "UK",
+              "text": "A. Some passengers are getting off a boat."
+            },
+            {
+              "speaker": "UK",
+              "text": "B. A boat is tied up next to a pier."
+            },
+            {
+              "speaker": "UK",
+              "text": "C. A boat is being repaired."
+            },
+            {
+              "speaker": "UK",
+              "text": "D. Some people are swimming in the water."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-12",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 1,
+              "explanation": "(B) ถูก: tied up next to a pier = ผูกจอดข้างท่าเรือ (paraphrase) / (A) และ (D) ไม่มีคนในภาพ / (C) ใช้ being + V3 แต่ไม่มีใครกำลังซ่อม"
             }
           ]
         }
