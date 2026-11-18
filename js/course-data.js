@@ -101,12 +101,17 @@ window.COURSE = {
       L: "Part 1 Photographs",
       R: "Part 5: Parts of Speech & Word Form",
       book: "บทที่ 1", clo: [2, 3, 4], assess: "",
+      links: {
+        handout: "docs/week-02/Week02_Handout_Part1_Photographs_Part5_WordForm.docx",
+        slides: "docs/week-02/Week02_Part1_Photographs_Part5_WordForm.pptx"
+      },
       handout: [
-        "A: ประเภทภาพ (คนเดียว / หลายคน / ไม่มีคน)",
-        "A: is + V-ing กับ has been + V3 / กับดักคำเสียงคล้าย",
-        "B: ตำแหน่ง noun / verb / adjective / adverb ในประโยค",
-        "B: suffix -tion -ment -ness -ly -ful -less",
-        "B: เทคนิคดูช่องว่างโดยไม่ต้องแปลทั้งประโยค"
+        "A: รูปแบบ Part 1 และภาพ 3 แบบ (คนเดียว / หลายคน / ไม่มีคน)",
+        "A: กับดัก 5 แบบ รวม is being + V3 เมื่อภาพไม่มีคน",
+        "A: เทคนิค 3 ขั้น (ถาม Who / Doing / Where / What ก่อนฟัง) + แบบฝึก 6 ข้อ",
+        "B: ตำแหน่ง noun / verb / adjective / adverb และ suffix ช่วยเดาชนิดคำ",
+        "B: กับดักที่คนไทยพลาดบ่อย + เทคนิคดูซ้าย–ดูขวา + แบบฝึก 12 ข้อ",
+        "คำศัพท์ประจำสัปดาห์ 18 คำ และเฉลยพร้อมคำอธิบาย"
       ]
     },
     {
