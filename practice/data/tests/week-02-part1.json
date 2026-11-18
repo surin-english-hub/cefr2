@@ -1,0 +1,257 @@
+{
+  "id": "week-02-part1",
+  "title": "Week 2 · Part 1 Photographs",
+  "description": "ดูภาพ ฟัง 4 ประโยค เลือกประโยคที่บรรยายภาพได้ถูกต้องที่สุด (6 ข้อ · CLO 2, 4)",
+  "level": "A2–B1",
+  "timeLimitMinutes": 5,
+  "voices": {
+    "US": "en-US-GuyNeural",
+    "UK": "en-GB-SoniaNeural",
+    "AU": "en-AU-WilliamNeural",
+    "CA": "en-CA-ClaraNeural",
+    "N": "en-US-JennyNeural"
+  },
+  "sections": [
+    {
+      "id": "part1",
+      "title": "Part 1 Photographs",
+      "instructions": "ดูภาพ ฟังประโยค (A)–(D) แล้วเลือกประโยคที่บรรยายภาพได้ถูกต้องที่สุด",
+      "groups": [
+        {
+          "id": "p1-01",
+          "label": "Photograph 1",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-01.jpg",
+          "imageAlt": "ผู้หญิงกำลังถ่ายเอกสารที่เครื่องถ่ายเอกสาร",
+          "script": [
+            {
+              "speaker": "AU",
+              "text": "A. She's making some copies."
+            },
+            {
+              "speaker": "AU",
+              "text": "B. She's opening a cabinet drawer."
+            },
+            {
+              "speaker": "AU",
+              "text": "C. She's drinking some coffee."
+            },
+            {
+              "speaker": "AU",
+              "text": "D. She's hanging a picture on the wall."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-1",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 0,
+              "explanation": "(A) ถูก: make copies = ถ่ายเอกสาร ตรงกับภาพ / (B) ไม่ได้เปิดลิ้นชักตู้ / (C) coffee ฟังคล้าย copies (กับดักเสียงคล้าย) และเธอไม่ได้ดื่มกาแฟ / (D) ไม่ได้แขวนรูป"
+            }
+          ]
+        },
+        {
+          "id": "p1-02",
+          "label": "Photograph 2",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-02.jpg",
+          "imageAlt": "คนงาน 2 คนสวมหมวกนิรภัย ช่วยกันแบกแผ่นไม้ยาว",
+          "script": [
+            {
+              "speaker": "CA",
+              "text": "A. They're painting a wall."
+            },
+            {
+              "speaker": "CA",
+              "text": "B. They're taking off their helmets."
+            },
+            {
+              "speaker": "CA",
+              "text": "C. They're carrying a board together."
+            },
+            {
+              "speaker": "CA",
+              "text": "D. They're sitting on a bench."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-2",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 2,
+              "explanation": "(C) ถูก: board = แผ่นไม้ (paraphrase) และทั้งสองคนกำลังแบกด้วยกัน / (A) ไม่ได้ทาสี / (B) ยังสวมหมวกอยู่ ไม่ได้ถอด (คำนามตรงภาพแต่กริยาผิด) / (D) ทั้งสองคนยืนเดินอยู่ ไม่ได้นั่ง"
+            }
+          ]
+        },
+        {
+          "id": "p1-03",
+          "label": "Photograph 3",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-03.jpg",
+          "imageAlt": "จักรยานหลายคันจอดเรียงในที่จอด ไม่มีคน",
+          "script": [
+            {
+              "speaker": "US",
+              "text": "A. Some bicycles are being repaired."
+            },
+            {
+              "speaker": "US",
+              "text": "B. Some bicycles are lined up in a rack."
+            },
+            {
+              "speaker": "US",
+              "text": "C. Cyclists are riding along a road."
+            },
+            {
+              "speaker": "US",
+              "text": "D. A rack is being installed."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-3",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 1,
+              "explanation": "(B) ถูก: บรรยายสภาพที่เห็น จักรยานจอดเรียงในที่จอด / (A) และ (D) ใช้ is/are being + V3 ซึ่งต้องมีคนกำลังทำอยู่ แต่ภาพไม่มีคน / (C) ไม่มีคนขี่จักรยานในภาพ"
+            }
+          ]
+        },
+        {
+          "id": "p1-04",
+          "label": "Photograph 4",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-04.jpg",
+          "imageAlt": "ผู้หญิงที่แผงผลไม้ ถือแอปเปิลดูอยู่ในมือ",
+          "script": [
+            {
+              "speaker": "UK",
+              "text": "A. She's peeling an orange."
+            },
+            {
+              "speaker": "UK",
+              "text": "B. She's pushing a shopping cart."
+            },
+            {
+              "speaker": "UK",
+              "text": "C. Some fruit is being weighed on a scale."
+            },
+            {
+              "speaker": "UK",
+              "text": "D. She's holding a piece of fruit."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-4",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 3,
+              "explanation": "(D) ถูก: a piece of fruit = แอปเปิลในมือ (paraphrase) / (A) ไม่ได้ปอกส้ม / (B) ไม่มีรถเข็นในภาพ / (C) ใช้ passive แต่ไม่มีใครกำลังชั่งผลไม้"
+            }
+          ]
+        },
+        {
+          "id": "p1-05",
+          "label": "Photograph 5",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-05.jpg",
+          "imageAlt": "โต๊ะอาหารจัดจาน แก้ว และผ้าเช็ดปากไว้แล้ว ไม่มีคน",
+          "script": [
+            {
+              "speaker": "AU",
+              "text": "A. Some dishes are being washed."
+            },
+            {
+              "speaker": "AU",
+              "text": "B. A waiter is setting the table."
+            },
+            {
+              "speaker": "AU",
+              "text": "C. Some glasses have been placed on the table."
+            },
+            {
+              "speaker": "AU",
+              "text": "D. Some chairs are stacked in a corner."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-5",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 2,
+              "explanation": "(C) ถูก: have been placed บรรยายสภาพที่จัดไว้แล้ว / (A) ใช้ being + V3 แต่ไม่มีคนล้างจาน / (B) ไม่มีพนักงานในภาพ / (D) ไม่มีเก้าอี้ซ้อนกันในมุมห้อง"
+            }
+          ]
+        },
+        {
+          "id": "p1-06",
+          "label": "Photograph 6",
+          "playLimit": 1,
+          "image": "images/week-02/w2-p1-06.jpg",
+          "imageAlt": "ผู้ชายยืนนำเสนองานหน้าจอ มีคนนั่งฟัง",
+          "script": [
+            {
+              "speaker": "CA",
+              "text": "A. A presentation is being given to a group."
+            },
+            {
+              "speaker": "CA",
+              "text": "B. The audience is standing near the door."
+            },
+            {
+              "speaker": "CA",
+              "text": "C. A man is turning off the projector."
+            },
+            {
+              "speaker": "CA",
+              "text": "D. Some people are leaving the meeting room."
+            }
+          ],
+          "questions": [
+            {
+              "id": "P1-6",
+              "prompt": "Choose the statement that best describes the picture.",
+              "options": [
+                "A",
+                "B",
+                "C",
+                "D"
+              ],
+              "answer": 0,
+              "explanation": "(A) ถูก: มีคนกำลังนำเสนออยู่จริง จึงใช้ is being + V3 ได้ / (B) ผู้ฟังนั่งอยู่ ไม่ได้ยืน / (C) ไม่ได้ปิดเครื่องฉาย / (D) ไม่มีใครออกจากห้อง"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
