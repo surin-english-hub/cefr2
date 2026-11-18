@@ -1,9 +1,9 @@
 {
   "id": "week-02-part5",
   "title": "Week 2 · Part 5 Word Form",
-  "description": "เลือกคำที่ถูกต้องเติมในช่องว่าง ใช้เทคนิคดูซ้าย–ดูขวา (12 ข้อ · CLO 2, 3)",
+  "description": "เลือกคำที่ถูกต้องเติมในช่องว่าง ใช้เทคนิคดูซ้าย–ดูขวา (30 ข้อ · CLO 2, 3)",
   "level": "A2–B1",
-  "timeLimitMinutes": 8,
+  "timeLimitMinutes": 20,
   "sections": [
     {
       "id": "part5",
@@ -156,6 +156,222 @@
               ],
               "answer": 3,
               "explanation": "[ยาก] ขยายวลี after the director signs it ต้องเป็น adverb จึงตอบ immediately (ทันที) / (A) adjective / (B)(C) noun"
+            },
+            {
+              "id": "P5-13",
+              "prompt": "The marketing campaign was a great ______.",
+              "options": [
+                "succeed",
+                "successful",
+                "success",
+                "successfully"
+              ],
+              "answer": 2,
+              "explanation": "[ง่าย] หลัง a great (adjective) ต้องเป็น noun จึงตอบ success / (A) verb / (B) adjective ไม่มี noun ให้ขยาย / (D) adverb"
+            },
+            {
+              "id": "P5-14",
+              "prompt": "Our prices are very ______ compared to other online stores.",
+              "options": [
+                "competitive",
+                "compete",
+                "competition",
+                "competitor"
+              ],
+              "answer": 0,
+              "explanation": "[ง่าย] หลัง be + very ต้องเป็น adjective จึงตอบ competitive (แข่งขันได้) / (B) verb / (C) noun / (D) noun ที่หมายถึงคู่แข่ง"
+            },
+            {
+              "id": "P5-15",
+              "prompt": "The new park has become a popular tourist ______ in Surin.",
+              "options": [
+                "attract",
+                "attractive",
+                "attractively",
+                "attraction"
+              ],
+              "answer": 3,
+              "explanation": "[ง่าย] หลัง a popular tourist ต้องเป็น noun (tourist attraction = สถานที่ท่องเที่ยว) / (A) verb / (B) adjective / (C) adverb"
+            },
+            {
+              "id": "P5-16",
+              "prompt": "Please check that all the figures in the invoice are ______.",
+              "options": [
+                "accuracy",
+                "accurate",
+                "accurately",
+                "accuracies"
+              ],
+              "answer": 1,
+              "explanation": "[ง่าย] หลัง are ต้องเป็น adjective จึงตอบ accurate (ถูกต้อง แม่นยำ) / (A)(D) noun / (C) adverb ใช้หลัง be ไม่ได้"
+            },
+            {
+              "id": "P5-17",
+              "prompt": "Ms. Rosa is looking for an ______ to help with office tasks.",
+              "options": [
+                "assistant",
+                "assist",
+                "assistance",
+                "assisted"
+              ],
+              "answer": 0,
+              "explanation": "[ง่าย] ผู้ที่มาช่วยงานต้องเป็นคน จึงตอบ assistant (ผู้ช่วย) / (C) assistance เป็น noun แต่หมายถึงความช่วยเหลือ ไม่ใช่คน / (B) verb / (D) verb ช่อง 2/3"
+            },
+            {
+              "id": "P5-18",
+              "prompt": "The manager will make an ______ about the new schedule tomorrow.",
+              "options": [
+                "announce",
+                "announced",
+                "announcement",
+                "announcer"
+              ],
+              "answer": 2,
+              "explanation": "[ง่าย] make an announcement = ประกาศ ต้องเป็น noun ที่เป็นสิ่ง / (D) announcer เป็น noun แต่หมายถึงผู้ประกาศ (คน) / (A) verb / (B) verb ช่อง 2/3"
+            },
+            {
+              "id": "P5-19",
+              "prompt": "Visitors are not ______ to take photos inside the factory.",
+              "options": [
+                "permission",
+                "permitted",
+                "permit",
+                "permitting"
+              ],
+              "answer": 1,
+              "explanation": "[ง่าย] โครงสร้าง passive: be + V3 (be permitted to = ได้รับอนุญาตให้) / (A) noun / (C) verb ช่อง 1 ใช้หลัง are ไม่ได้ / (D) V-ing ทำให้ความหมายผิด"
+            },
+            {
+              "id": "P5-20",
+              "prompt": "Online sales have grown ______ over the past three months.",
+              "options": [
+                "rapid",
+                "rapidity",
+                "rapids",
+                "rapidly"
+              ],
+              "answer": 3,
+              "explanation": "[ปานกลาง] ขยายกริยา grown ต้องเป็น adverb จึงตอบ rapidly (อย่างรวดเร็ว) / (A) adjective / (B) noun / (C) noun (แก่งน้ำ)"
+            },
+            {
+              "id": "P5-21",
+              "prompt": "The hotel staff gave us several useful ______ for local restaurants.",
+              "options": [
+                "recommendations",
+                "recommend",
+                "recommended",
+                "recommendation"
+              ],
+              "answer": 0,
+              "explanation": "[ปานกลาง] หลัง several useful ต้องเป็นนามพหูพจน์ จึงตอบ recommendations / (D) เป็นเอกพจน์ ใช้หลัง several ไม่ได้ / (B) verb / (C) verb ช่อง 2/3"
+            },
+            {
+              "id": "P5-22",
+              "prompt": "Mr. Kenji is ______ for training all new employees in the sales department.",
+              "options": [
+                "responsibility",
+                "responsible",
+                "responsibly",
+                "responsibilities"
+              ],
+              "answer": 1,
+              "explanation": "[ปานกลาง] be responsible for = รับผิดชอบ ต้องเป็น adjective หลัง is / (A)(D) noun / (C) adverb"
+            },
+            {
+              "id": "P5-23",
+              "prompt": "The brochure is very ______ and easy to read.",
+              "options": [
+                "inform",
+                "information",
+                "informative",
+                "informed"
+              ],
+              "answer": 2,
+              "explanation": "[ปานกลาง] สิ่ง (brochure) ที่ให้ข้อมูลดี = informative / (D) informed เป็น adjective แต่ใช้กับคนที่รู้ข้อมูล / (A) verb / (B) noun"
+            },
+            {
+              "id": "P5-24",
+              "prompt": "Customers know that our delivery service is fast and ______.",
+              "options": [
+                "dependable",
+                "depend",
+                "dependence",
+                "dependently"
+              ],
+              "answer": 0,
+              "explanation": "[ปานกลาง] and เชื่อมคำชนิดเดียวกับ fast (adjective) จึงตอบ dependable (ไว้ใจได้) / (B) verb / (C) noun / (D) adverb"
+            },
+            {
+              "id": "P5-25",
+              "prompt": "Please keep your password in a ______ place.",
+              "options": [
+                "security",
+                "securely",
+                "secures",
+                "secure"
+              ],
+              "answer": 3,
+              "explanation": "[ปานกลาง] หลัง a และหน้า noun (place) ต้องเป็น adjective จึงตอบ secure (ปลอดภัย) / (A) noun / (B) adverb / (C) verb"
+            },
+            {
+              "id": "P5-26",
+              "prompt": "Taxi fares in the city are more ______ than bus fares.",
+              "options": [
+                "expense",
+                "expensive",
+                "expensively",
+                "expenses"
+              ],
+              "answer": 1,
+              "explanation": "[ปานกลาง] more ... than ใช้กับ adjective หลัง are จึงตอบ expensive / (A)(D) noun / (C) adverb"
+            },
+            {
+              "id": "P5-27",
+              "prompt": "Customers who ______ visit our store can join the membership program for free.",
+              "options": [
+                "frequently",
+                "frequent",
+                "frequency",
+                "frequencies"
+              ],
+              "answer": 0,
+              "explanation": "[ยาก] อยู่ระหว่าง who กับกริยา visit ต้องเป็น adverb จึงตอบ frequently (บ่อย) / (B) frequent เป็น adjective (หรือ verb) วางหน้า visit แบบนี้ไม่ได้ / (C)(D) noun"
+            },
+            {
+              "id": "P5-28",
+              "prompt": "Most guests found the service at the resort ______.",
+              "options": [
+                "satisfaction",
+                "satisfy",
+                "satisfactory",
+                "satisfactorily"
+              ],
+              "answer": 2,
+              "explanation": "[ยาก] find + กรรม + adjective (พบว่า...เป็นอย่างไร) จึงตอบ satisfactory (น่าพอใจ) / (A) noun / (B) verb / (D) adverb ใช้ในโครงสร้างนี้ไม่ได้"
+            },
+            {
+              "id": "P5-29",
+              "prompt": "The prices at the two suppliers are ______, so we chose the one closer to our office.",
+              "options": [
+                "comparison",
+                "comparable",
+                "comparably",
+                "compare"
+              ],
+              "answer": 1,
+              "explanation": "[ยาก] หลัง are ต้องเป็น adjective จึงตอบ comparable (พอ ๆ กัน) / (A) noun / (C) adverb / (D) verb"
+            },
+            {
+              "id": "P5-30",
+              "prompt": "Before signing the contract, Ms. Yuki met with a legal ______.",
+              "options": [
+                "consult",
+                "consultation",
+                "consulting",
+                "consultant"
+              ],
+              "answer": 3,
+              "explanation": "[ยาก] meet with + คน จึงตอบ consultant (ที่ปรึกษา) / (B) consultation เป็น noun แต่หมายถึงการปรึกษา ไม่ใช่คน / (A) verb / (C) V-ing"
             }
           ]
         }
