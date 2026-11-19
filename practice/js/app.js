@@ -338,7 +338,7 @@
       const listening = section.groups.some((g) => g.script);
       const plays = (section.groups.find((g) => g.script) || {}).playLimit;
       const text = practice && listening
-        ? "ฟังซ้ำได้ไม่จำกัด ปรับความเร็วเสียงได้ เปิดดูบทพูดได้ เลือกคำตอบแล้วจะเห็นเฉลยทันที"
+        ? "ฟังซ้ำได้ไม่จำกัด ปรับความเร็วเสียงได้ ข้อที่ตัวเลือกเป็นเสียงจะไม่แสดงประโยคจนกว่าจะตอบ (เปิดดูบทพูดเองได้) เลือกคำตอบแล้วจะเห็นเฉลยทันที"
         : listening
           ? `โหมดสอบ (เหมือนข้อสอบจริง): คำถามและตัวเลือกจะไม่แสดงบนจอ ต้องฟังจากเสียงเท่านั้น กดเล่นแล้วฟังให้จบ จากนั้นเลือกคำตอบ A–D${plays ? ` · แต่ละชุดฟังได้ ${plays} ครั้ง` : ""}`
           : section.instructions;
@@ -356,6 +356,11 @@
       const inner = el(`<div class="group-inner"></div>`);
       if (g.image) inner.append(el(`<figure class="photo"><img src="${esc(g.image)}" alt="${esc(g.imageAlt || g.label || "")}" loading="lazy"></figure>`));
       if (g.script) inner.append(renderPlayer(test, g, mode));
+      if ((review || practice) && g.script) {
+        const tr = el(`<details class="transcript"><summary>${practice ? "ฟังไม่ทัน? เปิดดูบทพูด (Transcript)" : "บทพูด (Transcript)"}</summary></details>`);
+        g.script.forEach((l) => tr.append(el(`<p><b>${esc(l.speaker)}:</b> ${esc(l.text)}</p>`)));
+        inner.append(tr);
+      }
       if (hasPassage) inner.append(el(`<div class="passage">${esc(g.passage).replace(/\n/g, "<br>")}</div>`));
 
       const qs = el(`<div class="questions"></div>`);
@@ -365,11 +370,6 @@
       });
       inner.append(qs);
 
-      if ((review || practice) && g.script) {
-        const tr = el(`<details class="transcript"><summary>${practice ? "แสดงบทพูด (Transcript)" : "บทพูด (Transcript)"}</summary></details>`);
-        g.script.forEach((l) => tr.append(el(`<p><b>${esc(l.speaker)}:</b> ${esc(l.text)}</p>`)));
-        inner.append(tr);
-      }
       block.append(inner);
       wrap.append(block);
     });
@@ -437,7 +437,9 @@
     const practice = mode === "practice";
     // practice: reveal right after answering; review: always revealed
     const revealed = mode === "review" || (practice && chosen != null);
-    const showSpoken = mode !== "exam";
+    // Spoken options (Part 1 / Part 2) stay hidden until the learner answers;
+    // before that they can open the transcript themselves if they need it.
+    const showSpoken = revealed;
     const audioOnly = mode === "exam" && !!g.script;   // real-test style: listen only
     const card = el(`
       <fieldset class="question ${revealed ? (chosen === q.answer ? "correct" : "wrong") : ""}">
